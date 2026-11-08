@@ -1,0 +1,16 @@
+# 环境配置（含数据库密码和密钥，绝对不能上传！）
+.env
+
+# Python 缓存和虚拟环境
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 测试和 IDE 缓存
+.pytest_cache/
+.idea/
+.vscode/
+
+# 本地 SQLite 数据文件（切换本地存储后生成，不要上传）
+data/*.db
